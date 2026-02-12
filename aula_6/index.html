@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>calculo IMC</title>
+
+
+</head>
+
+<body>
+
+
+    <h1>CÁLCULOS</h1>
+    
+
+    <h3>Primeiro número</h3>
+    <input type='text' id="primeiro número" placeholder="Número">
+
+    <h3>Segundo número</h3>
+    <input type='text' id="Segundo número" placeholder="Número 2">
+
+    <br>
+    <br>
+<!--  SCRIPT IN LINE    --->
+    <button class="btn" type="submit" onclick="document.getElementById('resultado').innerHTML = 'Calculadora' + Math.round((document.getElementById('primeiro número').value) /((document.getElementById('altura').value) * (document.getElementById('Segundo número')).value)).toFixed(2) ">CALCULAR</button>
+
+    <br>
+
+
+    <div id = 'resultado'> RESULTADO IMC: </div>
+
+
+ <img class = 'img' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5nxn_C9DSo-x4FfYpRWk8nhZOtq5XzeZ8dw&s" alt="">
+
+
+</body>
+
+
+</html>

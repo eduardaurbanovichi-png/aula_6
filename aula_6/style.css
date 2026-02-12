@@ -1,0 +1,23 @@
+:root {
+    --fundo: #d3d3d3;
+    --fonte:"Playwrite NZ Basic";
+--color-principal: #504438;
+}
+
+
+
+body {
+    margin:10px;
+    display:11px;
+    color: var(--color-principal);
+   text-align: center;
+}
+
+/* .btn {
+
+    display: 10px;
+    height: 10px;
+    width: 12px;
+
+} */
+
